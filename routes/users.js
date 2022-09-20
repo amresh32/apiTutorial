@@ -3,16 +3,7 @@ import express from 'express';
 const router = express.Router();
 
 const users = [
-   {
-        firstname: "john",
-        lastname: "doe",
-        age: 25
-   },
-   {
-     firstname : "jane",
-     lastname : "doe",
-     age : 24
-    }
+   
 ]
 
 router.get('/',( req, res) =>{
