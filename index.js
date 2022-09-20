@@ -18,7 +18,9 @@ app.use(bodyparser.json());
 app.use('/users',usersRoutes);
 
 
- app.get('/', (req, res) => res.send ('Hello from Homepage.') );
+app.get('/', (req, res) => res.send ('Hello from Homepage.') );
+
+app.get('/hello', (req, res) => res.send ('Hello from Homepage.') );
 
 
 
